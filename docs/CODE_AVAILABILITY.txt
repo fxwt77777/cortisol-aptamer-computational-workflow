@@ -1,6 +1,6 @@
 Code availability
 
-Custom scripts used for data preprocessing, machine-learning model training and evaluation, sequence generation and candidate rescoring, sequence-similarity analysis, molecular-dynamics replicate preparation and trajectory analysis, and MM/GBSA post-processing are available at [GitHub repository URL].
+Custom scripts used for data preprocessing, machine-learning model training and evaluation, sequence generation and candidate rescoring, sequence-similarity analysis, molecular-dynamics replicate preparation and trajectory analysis, and MM/GBSA post-processing are maintained at https://github.com/fxwt77777/cortisol-aptamer-computational-workflow. The repository is currently private for internal review and will be made publicly accessible before manuscript submission.
 
 The repository also contains the GROMACS simulation parameter files, replicate metadata, and compact derived summary tables used to document the computational workflow.
 
@@ -8,4 +8,3 @@ Large molecular-dynamics trajectories, model checkpoints, and intermediate simul
 
 Scripts that access an NVIDIA-hosted endpoint read the required credential from the NVIDIA_API_KEY environment variable. No API credentials are stored in the repository.
 
-The placeholder GitHub URL in this statement should be replaced with the final public repository address before manuscript submission.
