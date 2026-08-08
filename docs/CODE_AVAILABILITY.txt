@@ -1,6 +1,6 @@
 Code availability
 
-Custom scripts used for data preprocessing, machine-learning model training and evaluation, sequence generation and candidate rescoring, sequence-similarity analysis, molecular-dynamics replicate preparation and trajectory analysis, and MM/GBSA post-processing are maintained at https://github.com/fxwt77777/cortisol-aptamer-computational-workflow. The repository is currently private for internal review and will be made publicly accessible before manuscript submission.
+Custom scripts used for data preprocessing, machine-learning model training and evaluation, sequence generation and candidate rescoring, sequence-similarity analysis, molecular-dynamics replicate preparation and trajectory analysis, and MM/GBSA post-processing are maintained at https://github.com/fxwt77777/cortisol-aptamer-computational-workflow.
 
 The repository also contains the GROMACS simulation parameter files, replicate metadata, and compact derived summary tables used to document the computational workflow.
 
