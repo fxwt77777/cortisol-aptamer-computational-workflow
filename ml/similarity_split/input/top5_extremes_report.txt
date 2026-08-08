@@ -1,0 +1,12 @@
+Top/Bottom 5% dataset preparation
+============================================================
+Total sequences: 11438
+Weak label 0: 5719
+Strong label 1: 5719
+Unique sequences: 11438
+Length range: 50-65 nt
+Mean GC: 0.5067
+Mean GC label 0: 0.5090
+Mean GC label 1: 0.5044
+Mean length label 0: 56.1845
+Mean length label 1: 58.6034

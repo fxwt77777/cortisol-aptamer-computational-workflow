@@ -1,0 +1,23 @@
+Similarity-aware Top/Bottom 5% split
+=================================================================
+Input sequences: 11438
+Input clusters: 11438
+Multi-member clusters: 0
+Maximum cluster size: 1
+
+     split    n  label_0  label_1  mean_length  sd_length  mean_gc    sd_gc  unique_sequences  unique_clusters
+     train 8006     4003     4003    57.392581   4.757572 0.506229 0.066509              8006             8006
+validation 1716      857      859    57.398601   4.754703 0.506120 0.069079              1716             1716
+      test 1716      859      857    57.395688   4.756234 0.509425 0.066782              1716             1716
+
+Overlap audit
+------------------------------
+sequence_train_validation: 0
+sequence_train_test: 0
+sequence_validation_test: 0
+cluster_train_validation: 0
+cluster_train_test: 0
+cluster_validation_test: 0
+
+Stratification: binary label + exact sequence length
+Random seeds: 20260803, 20260804

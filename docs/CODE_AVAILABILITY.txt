@@ -1,0 +1,11 @@
+Code availability
+
+Custom scripts used for data preprocessing, machine-learning model training and evaluation, sequence generation and candidate rescoring, sequence-similarity analysis, molecular-dynamics replicate preparation and trajectory analysis, and MM/GBSA post-processing are available at [GitHub repository URL].
+
+The repository also contains the GROMACS simulation parameter files, replicate metadata, and compact derived summary tables used to document the computational workflow.
+
+Large molecular-dynamics trajectories, model checkpoints, and intermediate simulation files are not included in the Git repository because of their file size. Third-party software and services, including GROMACS, MMseqs2, CD-HIT, gmx_MMPBSA, and Boltz-2-related software or services, are not redistributed and should be obtained from their respective providers.
+
+Scripts that access an NVIDIA-hosted endpoint read the required credential from the NVIDIA_API_KEY environment variable. No API credentials are stored in the repository.
+
+The placeholder GitHub URL in this statement should be replaced with the final public repository address before manuscript submission.

@@ -1,0 +1,13 @@
+{
+  "seed": 20260803,
+  "bootstrap_iterations": 1000,
+  "split_directory": "ml/similarity_split/splits/id70_seed20260803",
+  "selection_metric": "validation ROC-AUC",
+  "classification_threshold": "Youden J selected on validation set",
+  "kmer_range": [
+    1,
+    4
+  ],
+  "random_forest_estimators": 400,
+  "random_forest_threads": 8
+}

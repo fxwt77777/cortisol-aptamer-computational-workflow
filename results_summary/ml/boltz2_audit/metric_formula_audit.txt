@@ -1,0 +1,37 @@
+Boltz-2 metric and label audit
+======================================================================
+Total rows: 114371
+Unique sequences: 114371
+Rows involved in duplicated sequences: 0
+Valid ACGT rows: 114371
+
+Historical label reproduction
+----------------------------------------------------------------------
+affinity_pic50 q05: 10.03761287
+affinity_pic50 q10: 10.15805178
+affinity_pic50 q90: 10.76717315
+affinity_pic50 q95: 10.82687504
+
+class_top5 counts:
+class_top5
+-1    102933
+ 0      5719
+ 1      5719
+
+class_top10 counts:
+class_top10
+-1    91495
+ 0    11438
+ 1    11438
+
+Field consistency checks
+----------------------------------------------------------------------
+max abs difference: affinity_pred_value_log10_IC50_uM vs log10(IC50_uM) = 6.66133814775e-16
+max abs difference: IC50_M vs IC50_uM*1e-6 = 1.05879118407e-22
+mean physical pIC50 from IC50_M = 7.68541836
+mean affinity_pic50 = 10.48291064
+mean affinity_pic50 - physical pIC50 = 2.79749228
+candidate formula residual [affinity_pic50 - (physical pIC50 + 5*confidence_score)]:
+  mean = 0.0107553922365
+  mean absolute = 0.325363273774
+  max absolute = 1.65543684196

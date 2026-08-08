@@ -1,0 +1,55 @@
+{
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "device": "NVIDIA GeForce RTX 5080",
+  "torch_version": "2.11.0+cu128",
+  "torch_cuda_version": "12.8",
+  "data_files": {
+    "train_top5.csv": {
+      "path": "C:\\Users\\admin\\aptamer_revision\\data\\train_top5.csv",
+      "sha256": "ae619842a3fe9332f0d4d487de63bd3417d025b741a094cfff4c3e328671a4f4"
+    },
+    "val_top5.csv": {
+      "path": "C:\\Users\\admin\\aptamer_revision\\data\\val_top5.csv",
+      "sha256": "077099a450b2ab666716517dd91a812dbbef4ada68098acaec44ad4873d2ce77"
+    },
+    "test_top5.csv": {
+      "path": "C:\\Users\\admin\\aptamer_revision\\data\\test_top5.csv",
+      "sha256": "ea53fd5828fd97b6109ab2da04d9688f81bd79ab9b5f6478a60f2794aa81aebe"
+    }
+  },
+  "model": {
+    "name": "CNN_BiLSTM_Classifier",
+    "maximum_sequence_length": 65,
+    "nucleotide_vocabulary": [
+      "A",
+      "C",
+      "G",
+      "T"
+    ],
+    "convolution_filters": 128,
+    "kernel_sizes": [
+      6,
+      8,
+      10
+    ],
+    "hidden_dimension": 128,
+    "dropout": 0.3,
+    "parameter_count": 539522
+  },
+  "training": {
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "maximum_epochs": 200,
+    "early_stopping_patience": 20,
+    "model_selection_metric": "validation ROC-AUC",
+    "threshold_selection": "Youden J on validation set"
+  },
+  "bootstrap_iterations": 1000
+}

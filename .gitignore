@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.env
+.env.*
+venv/
+.venv/
+conda-env/
+*.pem
+*.key
+
+# Molecular dynamics trajectories / binaries
+*.xtc
+*.trr
+*.tpr
+*.cpt
+*.edr
+*.gro
+*.top
+*.itp
+
+# Large structural/intermediate files
+*.nc
+*.dcd
+*.tar
+*.tar.gz
+*.zip
+
+# GROMACS backups
+#*
+*.part????.*
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Temporary / logs
+*.log
+tmp/
+temp/
+scratch/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Generated analysis/model outputs
+ml/baselines/models/
+ml/baselines/predictions/
+ml/baselines/results/
+ml/cnn_bilstm/data/
+ml/cnn_bilstm/models/
+ml/cnn_bilstm/results/
+ml/boltz2_audit/output/
+ml/similarity_split/mmseqs/
+ml/similarity_split/cdhit/
+md/analysis_output/
+
+# Input datasets are documented separately
+data_raw/
+ml/similarity_split/mmseqs_linclust/**/tmp/
+ml/similarity_split/mmseqs_linclust/**/run.log
+ml/similarity_split/mmseqs_linclust/**/*_all_seqs.fasta
+ml/similarity_split/mmseqs_linclust/**/*_rep_seq.fasta

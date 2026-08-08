@@ -1,0 +1,5 @@
+threshold_name,threshold,ga_count_at_or_below,ga_count_at_or_above
+original_q05,10.03761287,0,60
+original_q10,10.15805178,0,60
+original_q90,10.76717315,5,55
+original_q95,10.82687504,18,42

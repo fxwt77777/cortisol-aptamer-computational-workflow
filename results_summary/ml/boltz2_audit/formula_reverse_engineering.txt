@@ -1,0 +1,88 @@
+Affinity_pic50 formula reverse engineering
+================================================================================
+
+CORRELATIONS WITH BONUS = affinity_pic50 - physical_pIC50
+confidence_score: -0.114510413538
+binding_affinity_likelihood: 0.662604830081
+confidence*likelihood: 0.060589476484
+logit(likelihood): 0.942003096017
+
+MODEL: confidence_only
+  intercept: 2.850455573617
+  confidence: -0.095027432243
+  R2: 0.013112634809
+  MAE: 0.050812112856
+  RMSE: 0.064517895685
+  MAX_ABS: 0.408891471316
+
+MODEL: confidence_and_likelihood
+  intercept: 1.626585142748
+  confidence: -0.052035682354
+  likelihood: 1.218596044109
+  R2: 0.442952591039
+  MAE: 0.038961988794
+  RMSE: 0.048472171806
+  MAX_ABS: 0.314062744643
+
+MODEL: confidence_times_likelihood
+  intercept: 2.769894798932
+  confidence_x_likelihood: 0.050306717682
+  R2: 0.003671084661
+  MAE: 0.051177485752
+  RMSE: 0.064825782362
+  MAX_ABS: 0.419140102356
+
+MODEL: interaction_model
+  intercept: 1.140436546678
+  confidence: 0.773833375418
+  likelihood: 1.712252598146
+  confidence_x_likelihood: -0.838947865840
+  R2: 0.444303780256
+  MAE: 0.038862600118
+  RMSE: 0.048413348410
+  MAX_ABS: 0.339672915314
+
+MODEL: quadratic_model
+  intercept: 6.281318228418
+  confidence: -0.711566919722
+  likelihood: -9.085729913977
+  confidence_x_likelihood: 0.769248952166
+  confidence_squared: -0.078984876342
+  likelihood_squared: 5.626514944860
+  R2: 0.590535286346
+  MAE: 0.033092806131
+  RMSE: 0.041558000156
+  MAX_ABS: 0.585786265846
+
+MODEL: logit_likelihood_model
+  intercept: 2.616804852938
+  confidence: -0.172053926156
+  logit_likelihood: 0.040755855604
+  confidence_x_logit_likelihood: 0.026857957608
+  R2: 0.890878997960
+  MAE: 0.016507559262
+  RMSE: 0.021453619427
+  MAX_ABS: 0.108777858640
+
+DIRECT CANDIDATE FORMULAS
+--------------------------------------------------------------------------------
+physical + 5*confidence
+  mean residual: 0.010755392236
+  MAE: 0.325363273774
+  max abs: 1.655436841965
+physical + 5*confidence*likelihood
+  mean residual: 0.054569892873
+  MAE: 0.321044188865
+  max abs: 1.557597745847
+physical + 5*confidence + likelihood
+  mean residual: -0.973909786666
+  MAE: 0.974181455471
+  max abs: 2.616896704674
+physical + 5*confidence + logit(likelihood)
+  mean residual: -4.955502634729
+  MAE: 4.955507638610
+  max abs: 7.833417759242
+physical + confidence*logit(likelihood)
+  mean residual: 0.035661277460
+  MAE: 0.518521617643
+  max abs: 2.507651341349

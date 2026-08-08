@@ -1,0 +1,9 @@
+threshold=70%
+minimum_identity=0.70
+coverage=0.80
+coverage_mode=0
+input_sequences=11438
+clusters=11438
+singleton_clusters=11438
+multi_member_clusters=0
+largest_cluster_size=1

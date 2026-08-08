@@ -1,0 +1,26 @@
+{
+  "input_sequences": 11438,
+  "input_clusters": 11438,
+  "identity_threshold": 0.7,
+  "minimum_bidirectional_coverage": 0.8,
+  "multi_member_clusters": 0,
+  "maximum_cluster_size": 1,
+  "random_seeds": [
+    20260803,
+    20260804
+  ],
+  "stratification": "binary label plus exact sequence length",
+  "observed_split_counts": {
+    "train": 8006,
+    "validation": 1716,
+    "test": 1716
+  },
+  "overlap_audit": {
+    "sequence_train_validation": 0,
+    "sequence_train_test": 0,
+    "sequence_validation_test": 0,
+    "cluster_train_validation": 0,
+    "cluster_train_test": 0,
+    "cluster_validation_test": 0
+  }
+}
