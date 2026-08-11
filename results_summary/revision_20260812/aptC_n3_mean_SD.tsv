@@ -1,0 +1,10 @@
+system	metric	n	mean	SD
+aptC	DNA_RMSD	3	3.856483	0.260843
+aptC	DNA_Rg	3	3.884249	0.232024
+aptC	mindist	3	0.451461	0.363786
+aptC	contact_fraction	3	0.926348	0.127569
+aptC	contact_count	3	38.095781	8.309140
+aptC	Hbond	3	0.144571	0.180546
+aptC	Hbond_fraction	3	0.141505	0.175818
+aptC	LIG_RMSD	3	6.730369	0.635704
+aptC	DNA_RMSF	3	1.745384	0.103088

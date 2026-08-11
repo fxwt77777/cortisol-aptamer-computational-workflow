@@ -1,0 +1,4 @@
+ligand	RMSD_mean_nm	RMSD_SD_nm	RMSD_final_nm	mindist_mean_nm	mindist_SD_nm	mindist_final_nm	contact_mean	contact_fraction	Hbond_mean	Hbond_fraction
+cortisol	0.4269	0.1633	0.5110	0.2177	0.0263	0.2331	96.773	1.0000	0.388	0.3746
+cortisone	0.6411	0.1732	0.7897	0.2041	0.0175	0.1990	109.830	1.0000	0.803	0.6883
+progesterone	0.4452	0.1953	0.8364	0.2165	0.0123	0.2082	109.505	1.0000	0.015	0.0150
