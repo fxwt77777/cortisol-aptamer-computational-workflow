@@ -2,6 +2,11 @@
 
 This repository contains custom code and reproducibility materials associated with the manuscript.
 
+## About
+
+This repository contains the research prototype accompanying our manuscript. The implementation is under active development and has not yet undergone peer review.
+
+
 ## Repository structure
 
 - `ml/baselines/`: Logistic Regression and Random Forest baselines.
@@ -68,4 +73,8 @@ See:
 
 ## Citation
 
+Size Tong, Jin Wang.  
+*Machine-Learning-Guided Generation of DNA Aptamer Candidates with Enhanced Computational Binding to Cortisol.*
+
 Citation information will be added after the manuscript receives final bibliographic information.
+
